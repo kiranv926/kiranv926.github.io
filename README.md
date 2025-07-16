@@ -31,12 +31,6 @@ I am actively developing technical content, sharing practical insights, and seek
 
 ---
 
-### Selected Article
-
-- [Scalable Event-Driven Architecture with Kafka and DynamoDB](https://kiranv926.github.io/posts/kafka-dynamodb-architecture.md)
-
----
-
 ### Connect with Me
 
 - Email: vuyyuru.kirankumar@gmail.com  
