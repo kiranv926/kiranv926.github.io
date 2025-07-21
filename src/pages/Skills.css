@@ -1,0 +1,108 @@
+.skills-container {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937;
+  padding: 0 20px;
+}
+
+.skills-container h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 2.2rem;
+  letter-spacing: -1px;
+  color: #1e293b;
+}
+
+.skill-group {
+  margin-bottom: 2rem;
+}
+
+.skill-group h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  color: #1f2937;
+}
+
+.skill-group p {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.skill-card {
+  background: #f3f6fa;
+  border-radius: 14px;
+  box-shadow: 0 1px 6px rgba(30, 64, 175, 0.05);
+  padding: 1.5rem 1.2rem 1.2rem 1.2rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.07em;
+  color: #334155;
+}
+.skill-card:hover {
+  box-shadow: 0 4px 16px rgba(30, 64, 175, 0.12);
+  transform: translateY(-4px) scale(1.02);
+}
+.skill-card-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+  letter-spacing: -0.5px;
+}
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.badge {
+  font-size: 1.01em;
+  font-weight: 500;
+  background: #2563eb;
+  color: #f8fafc;
+  border-radius: 12px;
+  padding: 0.32em 0.85em;
+  margin-bottom: 0.2em;
+  box-shadow: 0 1px 3px rgba(30, 64, 175, 0.07);
+  transition: background 0.2s, color 0.2s;
+  letter-spacing: 0.01em;
+}
+.badge:hover {
+  background: #1e40af;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .skill-card {
+    padding: 1.1rem 0.7rem 0.7rem 0.7rem;
+    font-size: 0.98em;
+  }
+  .skill-card-title {
+    font-size: 1rem;
+  }
+  .badge {
+    font-size: 0.95em;
+    padding: 0.25em 0.7em;
+  }
+  .skills-container h1 {
+    font-size: 1.5rem;
+  }
+}
+  

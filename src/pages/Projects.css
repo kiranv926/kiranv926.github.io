@@ -1,0 +1,36 @@
+.projects-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #0057ff;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project h2 {
+    font-size: 1.8rem;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project p {
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+  }
+  
+  .project strong {
+    color: #2563eb;
+  }
+  
