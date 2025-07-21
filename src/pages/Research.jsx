@@ -2,17 +2,8 @@ import React from 'react';
 
 const researchProjects = [
   {
-    title: 'Scalable Data Pipelines for Healthcare Analytics',
-    year: 2023,
-    description: 'Designed and implemented scalable, HIPAA-compliant data pipelines for real-time healthcare analytics using Apache Kafka and Spark.',
-    link: '#',
-  },
-  {
-    title: 'Fault-Tolerant Microservices in Cloud Environments',
-    year: 2022,
-    description: 'Explored patterns and best practices for building resilient microservices architectures on Kubernetes and AWS.',
-    link: '#',
-  },
+    title: 'TBD'
+  }
 ];
 
 const Research = () => (
