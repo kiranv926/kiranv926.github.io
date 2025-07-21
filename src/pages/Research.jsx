@@ -22,13 +22,7 @@ const Research = () => (
     <section className="research-projects">
       <h2>Selected Publications & Projects</h2>
       <ul>
-        {researchProjects.map((proj) => (
-          <li key={proj.title} className="research-item">
-            <strong>{proj.title}</strong> <span className="research-year">({proj.year})</span>
-            <div className="research-desc">{proj.description}</div>
-            {proj.link && <a href={proj.link} className="research-link">Read More</a>}
-          </li>
-        ))}
+        <li>TBD</li>
       </ul>
     </section>
   </div>

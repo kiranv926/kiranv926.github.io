@@ -39,13 +39,6 @@ const Experience = () => {
             Provided technical leadership and cross-team collaboration to align scalable
             data solutions with business outcomes.
           </li>
-        </ul>
-      </article>
-
-      <article className="job">
-        <h2>Software Engineer, Adobe Corporation</h2>
-        <p className="date">March 2022 – June 2024</p>
-        <ul>
           <li>
             Built distributed microservices for Adobe Commerce catalog feed ingestion,
             increasing throughput by 40%.
